@@ -766,5 +766,212 @@ footer i{
 .footer span{
   color: gold;
 }
+@media (max-width:480px){
+  body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .headerr{
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+  .headerr .gym-logo{
+    width: 45px;
+    height: 45px;
+    box-shadow: 0 0 10px gold;
+    border: none;
+  }
+  .headerr .navbar {
+    width: 70%;
+    gap: 3px;
+    margin-right: 10px;
+  }
+  .headerr .navbar a{
+    font-size: 11px;
+  }
+  .headerr .icon-sm{
+    display: none;
+  }
+  #home{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    display: block;
+  }
+  #home h3 span{
+    font-size: 1.1rem;
+    font-family: "poppins",sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.7px white;
+  text-shadow: 0 0 10px gold;
+  text-transform: uppercase;
+  }
+  #home .text{
+    font-size: 0.9rem;
+    max-width: 303px;
+    position: relative;
+    top: -35px;
+  }
+  .P2 i{
+    width: 35px;
+    height: 35px;
+    font-size: 17px;
+    padding: 0;
+    padding: 8px 0 ;
+    text-align: center;
+    box-sizing: border-box;
+    align-items: center;
+    position: relative;
+
+    
+    
+  }
+  #home .img-home{
+    width: 100%;
+    height: 250px;
+  }
+  #category{
+    width: 80%;
+    margin: auto;
+    margin-top: 410px;
+  }
+  .category-main{
+    display: block;
+    align-items: center;
+    margin-top: 0;
+    
+     
+  }
+  #category h2{
+    font-size: 19px;
+    margin-top: 0 ;
+    margin-bottom: 0;
+  }
+  .category-main  .mainnn{
+    width: 250px;
+    align-items: center;
+    margin-left: 30px;
+    position: relative;
+    top: -70px;
+    margin-bottom: 25px  ;
+  }
+  #category .a1{
+    position: relative;
+    left: 28%;
+  }
+  .category-info{
+    width: 100%;
+  
+  }
+  #muscle-info{
+    display: block;
+  }
+  .imginfo1 img{
+    width: 358px;
+    height: 358px;
+  }
+  .imginfo1::before{
+    font-size: 29rem;
+    top: 10%;
+  }
+  .category-info .infom{
+    font-size: 18px;
+    max-width: 330px;
+    margin-left: 10%;
+  }
+  .category-info .infom .span2{
+    font-size: 1.1rem;
+  }
+  .category-info .infom .span1{
+    font-size: 1rem;
+  }
+  #takewando-info{
+    display: block;
+  }
+  .imginfo2::before{
+    font-size: 29rem;
+    top: 31%;
+  }
+  #kickboxing-info{
+    display: block;
+    align-items: flip;
+    
+  }
+
+
+  #kickboxing-info img {
+    top: 0;
+  }
+  #price{
+    margin-top: -100px;
+  }
+  .our-price{
+    display: block;
+  }
+  .our-price div{
+    width: 310px;
+    margin-bottom: 70px;
+  }
+  .our-price button{
+    width:250px ;
+    left: 30px;
+  }
+  .cntct-main{
+    display: block;
+    padding: 0;
+  }
+  .cntct-main input{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+
+  
+  }
+  .cntct-main .li1{
+    
+    position: relative;
+    left: -20px;
+  }
+  .cntct-main ul{
+    left: 30px;
+  }
+  .cntct-main button{
+    width: 300px;
+    margin: 0 10px;
+    margin-bottom: 10px;
+  }
+  .cntct-main{
+    padding-bottom: 10px;
+
+  }
+  footer{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .footer .lis{
+    position: relative;
+    top:0px;
+  }
+  .footer.contactus{
+    text-align: center;
+  }
+  .footer .contactus ul{
+    position: relative;
+    left: 35px;
+  }
+  .footer .quicklinks{
+    text-align: center;
+  }
+  .footer  .followus{
+    text-align: center;
+}
+}
+  
+
 
 
